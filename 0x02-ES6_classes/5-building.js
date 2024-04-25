@@ -1,4 +1,12 @@
+/**
+ * Class: Building
+ * Description: Represents a building with square footage.
+ */
 export default class Building {
+  /**
+   * Constructor for Building.
+   * @param {number} sqft - The square footage of the building.
+   */
   constructor(sqft) {
     this.sqft = sqft;
     if (this.constructor !== Building) {
@@ -10,10 +18,18 @@ export default class Building {
     }
   }
 
+  /**
+   * Getter for the sqft property.
+   * @returns {number} - The square footage of the building.
+   */
   get sqft() {
     return this._sqft;
   }
 
+  /**
+   * Setter for the sqft property.
+   * @param {number} value - The square footage of the building.
+   */
   set sqft(value) {
     this._sqft = value;
   }
