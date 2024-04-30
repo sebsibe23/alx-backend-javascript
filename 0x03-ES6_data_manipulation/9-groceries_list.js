@@ -1,4 +1,3 @@
-
 /**
  * Retrieves the map of grocery names and their quantity.
  * @author sebsibe solomon https://github.com/sebsibe23
