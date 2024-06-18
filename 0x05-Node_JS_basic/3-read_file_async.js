@@ -3,29 +3,29 @@ const fs = require('fs');
 /**
  * Counts the students in a CSV data file.
  * @param {String} dataPath The path to the CSV data file.
- * 
- * This function reads a CSV file located at the given path, 
- * processes the data to count the number of students and 
- * groups them by their field of study. It then logs the total 
- * number of students and the number of students in each field 
+ *
+ * This function reads a CSV file located at the given path,
+ * processes the data to count the number of students and
+ * groups them by their field of study. It then logs the total
+ * number of students and the number of students in each field
  * to the console, along with a list of student names per field.
- * 
- * If the file cannot be read, the function rejects the promise 
- * with an error message indicating that the database cannot be 
+ *
+ * If the file cannot be read, the function rejects the promise
+ * with an error message indicating that the database cannot be
  * loaded.
- * 
- * The CSV file is expected to have the first row as the header 
- * containing the field names, and subsequent rows contain the 
- * student records. The last column is assumed to be the field 
+ *
+ * The CSV file is expected to have the first row as the header
+ * containing the field names, and subsequent rows contain the
+ * student records. The last column is assumed to be the field
  * of study for each student.
- * 
- * The function splits the CSV data into lines, extracts the 
- * field names from the header, and iterates over each student 
+ *
+ * The function splits the CSV data into lines, extracts the
+ * field names from the header, and iterates over each student
  * record to group students by their field of study.
- * 
- * After processing the data, it logs the total number of 
+ *
+ * After processing the data, it logs the total number of
  * students and the count and names of students in each field.
- * 
+ *
  * @example
  * // Assuming the CSV file has the following content:
  * // firstname,lastname,age,field
@@ -35,12 +35,12 @@ const fs = require('fs');
  * // Number of students: 2
  * // Number of students in CS: 1. List: John
  * // Number of students in Math: 1. List: Jane
- * 
+ *
  * @throws Will throw an error if the file cannot be read.
- * @returns {Promise<boolean>} Resolves to true if processing 
+ * @returns {Promise<boolean>} Resolves to true if processing
  *                             completes successfully.
  * by the author.
- * 
+ *
  * Author: https://github.com/sebsibe23
  */
 
