@@ -3,6 +3,7 @@ module.exports = {
     browser: false,
     es6: true,
     jest: true,
+    node: true, // Add this line to include Node.js environment
   },
   extends: [
     'airbnb-base',
@@ -28,11 +29,10 @@ module.exports = {
       'WithStatement',
     ],
   },
-  overrides:[
+  overrides: [
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
-    }
-  ]
+    },
+  ],
 };
-

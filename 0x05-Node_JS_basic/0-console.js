@@ -3,7 +3,7 @@
  * @param {String} msg The message to display.
  * The message is printed using console.log.
  * @throws Will throw an error if the input is not a string.
- * Author: Bezaleel Olakunori <https://github.com/B3zaleel>
+ * Author: Sebsibe solomon <https://github.com/sebsibe23>
  */
 const displayMessage = (msg) => {
   try {
