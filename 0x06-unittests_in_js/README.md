@@ -126,5 +126,4 @@ describe('GET /api/resource', () => {
 ## Conclusion
 
 This project will equip me with the skills needed to write comprehensive unit and integration tests for Node.js applications. Utilize the resources provided, adhere to the requirements, and ensure your tests are robust and error-free.
-
-Happy coding!
+sebsibe solomon
